@@ -23,6 +23,6 @@ public class Valute {
     String Value;
 
     public String toString() {
-        return getValue().toString();
+        return "RUB:"+getValue()+"\n"+getCharCode()+":"+getNominal();
     }
 }
